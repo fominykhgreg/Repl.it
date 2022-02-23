@@ -1,0 +1,18 @@
+import time
+
+
+empty="[.............................................................................]"
+#print (len(a))
+def load():
+  
+  for i in range(len(empty)+1):
+    
+    edited_load = empty.replace(".", "█", i)
+    
+    print(edited_load)
+    i=i+1
+    time.sleep(0.1)
+    clear = "\n" * 50
+    print (clear)
+  load()
+load()
