@@ -1,0 +1,19 @@
+x=int(input("Введите X: "))
+y=int(input("Введите Y: "))
+
+
+
+def decor_print(func):
+  def recall(*args,**kwargs):
+    print("chet idet...")
+    func(*args,**kwargs)
+  return recall 
+
+
+@decor_print
+def takaya_vot(x,y):
+  
+  print(x*y)
+  return x*y
+
+takaya_vot(x,y)
