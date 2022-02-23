@@ -1,0 +1,7 @@
+a=input("Какое слово перевести в байты - ")
+
+print (type(a))
+my_bytes=a.encode('utf-8')
+print (f'В слове - "{a}" {len(my_bytes)} байт.')
+my_bytes1=my_bytes.decode('utf-8')
+print (my_bytes)
