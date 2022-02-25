@@ -1,0 +1,21 @@
+
+def graph(x):
+  c = "###"
+  print(c*10)
+  i=0
+  j=0
+  while j<x:
+    while i< 11:
+      print(c*i)
+      i=i+1
+
+    while i>0:
+      print(c*i)
+      i=i-1
+    j=j+1
+  #graph(x)
+
+graph(1111)
+
+
+
