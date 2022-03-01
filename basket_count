@@ -1,0 +1,16 @@
+var basket=[]
+basket.push(2324)
+basket.push(12324)
+basket.push(4445)
+console.log(basket)
+
+function countBasketPrice(){
+  j=0
+  for (var i = 0; i < basket.length; i++) {
+    j=j+basket[i]
+  
+   
+}
+console.log(`Общая стоимость всех товаров в корзине - ${j}`);
+}
+countBasketPrice()
